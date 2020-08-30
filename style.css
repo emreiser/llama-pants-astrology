@@ -1,0 +1,512 @@
+body {
+	font-family: 'Josefin Sans', 'Josefin', Helvetica, sans-serif;
+	color: black;
+	text-align: center;
+}
+
+a, a:hover {
+	text-decoration: none;
+	outline: none;
+	color: #369b79;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+hr {
+	margin: 5px 0 10px 0;
+}
+
+p {
+	font-size: 16px;
+}
+
+p.big {
+	font-size: 140%;
+}
+
+p br {
+	line-height: 200%;
+}
+
+.sans {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.caps {
+	text-transform: uppercase;
+	color: gray;
+	font-size: 90%
+}
+
+.btn {
+	padding: 8px 20px 6px 20px;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.pad-top {
+	padding-top: 15px;
+}
+
+.right {
+	float: right;
+}
+
+.no-pad {
+	margin: 0 0 5px 0;
+}
+
+.vignette {
+	-webkit-box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.2);
+}
+
+.shadow {
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+/**************Nav Bar***************/
+
+img.logo {
+	width: 40%;
+	margin-top: 50px;
+}
+
+#navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	padding-top: 20px;
+	background-color: white;
+	z-index: 999;
+}
+
+.name {
+	float: left;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+nav {
+	float: right;
+	font-size: 140%;
+	margin-right: 50px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 10px;
+	color: black;
+	text-align: right;
+}
+
+#navbar li:hover, #navbar p:hover {
+	color: grey;
+	cursor: pointer;
+}
+
+.icon-bar {
+	color: gray;
+	border: 1px solid gray;
+}
+
+.navbar-toggle {
+	margin: 0 50px 0 0;
+}
+
+.navbar-collapse.collapse, .navbar-collapse.collapsing {
+	background: white;
+}
+
+
+/************** Main ***************/
+/*
+#main {
+	position: relative;
+	width: 100%;
+	height: 340px;
+	padding: 10px;
+	margin-top: 60px;
+	background: url('//s3.amazonaws.com/emiliereiser.com/jalouzi-trans.png') no-repeat;
+	background-color: #a2caeb;
+	background-size: 30%;
+	bac*/kground-position: bottom right;
+}
+
+#tag {
+	margin-top: 160px;
+}
+
+#tag-top, #tag-bottom {
+	opacity: 0;
+	padding-top: 25px;
+	letter-spacing: 2px;
+	margin-top: 5px;
+}
+
+#initials {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+	padding-top: 15px;
+	font-size: 400%;
+	border: 1px solid black;
+	border-radius: 2px;
+	background: url('//s3.amazonaws.com/emiliereiser.com/cloud-sm.png') repeat-x;
+	background-size: 220px;
+	background-position: -25px 50%;
+	cursor: pointer;
+}
+
+/************** Projects ***************/
+
+#projects-wrapper {
+	background: rgb(245, 245, 245);
+	width: 100%;
+	min-height: 0px;
+	padding: 60px 20px 20px 20px;
+	border-bottom: 2px solid whitesmoke;
+}
+
+.project {
+	width: 250px;
+	height: 155px;
+	display: inline-block;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: transparent;
+	font-size: 500%;
+	font-weight: bold;
+	padding-top: 30px;
+
+	transition: all .4s ease;
+}
+
+.project:hover {
+	-webkit-box-shadow: inset 0px 0px 200px rgba(0, 0, 0, .9);
+	-moz-box-shadow: inset 0px 0px 200px rgba(0, 0, 0, .9);
+	box-shadow: inset 0px 0px 200px rgba(0, 0, 0, .9);
+	color: white;
+}
+
+.description {
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	color: black;
+	vertical-align: top;
+}
+
+.description p {
+	min-height: 40px;
+}
+
+#go-figure {
+	background: url('//s3.amazonaws.com/emiliereiser.com/go-figure.jpg') no-repeat;
+	background-size: 100%;
+}
+
+#loopd {
+	background: url('//s3.amazonaws.com/emiliereiser.com/loopd.jpg') no-repeat;
+	background-size: 100%;
+}
+
+#outflux {
+	background: url('//s3.amazonaws.com/emiliereiser.com/outflux.jpg') no-repeat;
+	background-size: 100%;
+}
+
+#project-description {
+	height: auto;
+	display: none;
+	overflow: hidden;
+	text-align: left;
+	padding: 50px 0;
+}
+
+#project-description .row {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.next {
+	float: right;
+	font-size: 250%;
+	color: #bdbdbd;
+}
+
+.next:hover {
+	color: #a8a8a8;
+}
+
+#project-description img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+#project-description .desc {
+	margin: 10px 0;
+	min-height: 170px;
+}
+
+#project-description .launch {
+	background: #92efd0;
+	margin-left: 10px;
+	border: 1px solid #59cca5;;
+}
+
+#project-description a, a:hover {
+	color: black;
+}
+
+#project-description .launch:hover {
+	background: #59cca5;
+}
+
+
+/************** About ***************/
+
+#about {
+	position: relative;
+	color: #333;
+	padding: 30px 40px;
+}
+
+#about p {
+	margin: 10px 0px;
+}
+
+.swirl {
+	width: 100px;
+	margin-bottom: 5px;
+}
+
+/************** Skills ***************/
+
+.skills-section {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.skills {
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+	height: 230px;
+	margin: 10px 20px;
+  vertical-align: top;
+  background: #fafafa;
+}
+
+.skills li {
+	font-size: 110%;
+	margin-bottom: 5px;
+}
+
+/************** Contact ***************/
+
+#contact {
+	position: relative;
+	background: url('//s3.amazonaws.com/emiliereiser.com/jalouzi-footer-trans.png') no-repeat;
+	background-color: #a2caeb;
+	background-size: 35%;
+	background-position: bottom center;
+	height: 320px;
+	width: 100%;
+	padding: 30px;
+	color: #333;
+}
+
+#clouds {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	height: 200px;
+	width: 80%;
+	background: url('//s3.amazonaws.com/emiliereiser.com/clouds.png') no-repeat;
+	background-size: 80%;
+	background-position: center;
+	pointer-events: none;
+}
+
+.contact {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid white;
+	display: inline-block;
+	margin: 50px 20px;
+	padding: 20px;
+	background-position: 50% 50%;
+	background-size: 50%;
+	background-repeat: no-repeat;
+
+	transition: background-color 0.4s ease;
+}
+
+.contact:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.twitter {
+	background-image: url('//s3.amazonaws.com/emiliereiser.com/social_tw.png');
+}
+
+.instagram {
+	background-image: url('//s3.amazonaws.com/emiliereiser.com/social_inst.png');
+}
+
+.linked {
+	background-image: url('//s3.amazonaws.com/emiliereiser.com/social_in.png');
+}
+
+.git {
+	background-image: url('//s3.amazonaws.com/emiliereiser.com/social_git.png');
+}
+
+
+footer {
+	background-image: url('//s3.amazonaws.com/emiliereiser.com/texture.png');
+	background-color: white;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	text-align: center;
+	z-index: 999;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 970px) {
+
+	#initials {
+		position: static;
+		margin: 50px auto 0 auto;
+	}
+
+	#tag {
+		margin-top: 40px;
+	}
+
+	.name {
+		margin-left: 50px;
+	}
+
+}
+
+@media (max-width: 760px) {
+
+	h2 {
+		font-size: 24px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	#navbar {
+		min-height: 60px;
+		height: auto;
+		padding-top: 0;
+	}
+
+	.name {
+		margin-top: 20px;
+	}
+
+	#nav-button {
+		margin-top: 15px;
+	}
+
+  #main {
+  	background-size: 50%;
+  }
+
+  #initials {
+  	width: 70px;
+  	height: 70px;
+  	font-size: 42px;
+  	padding-top: 10px;
+  }
+
+  #tag-top {
+  	font-size: 16px;
+  }
+
+  #tag-bottom {
+  	font-size: 28px;
+  }
+
+  #projects-wrapper {
+  	padding: 40px 10px 0 10px;
+  }
+
+  .project {
+  	width: 200px;
+  	height: 125px;
+  	padding-top: 20px;
+  }
+
+  #project-description .buttons, .caps {
+  	float: none;
+  	text-align: center;
+  	margin-bottom: 15px;
+  }
+
+  #about {
+  	padding: 20px 0;
+  }
+
+  .skills-section {
+  	width: 100%;
+  }
+
+  #social-wrapper {
+  	width: 60%;
+  	margin: 0 auto;
+  	padding-top: 10px;
+  }
+
+  #contact {
+  	padding-top: 15px;
+  	background-size: 65%;
+  }
+
+  .contact {
+  	margin: 5px;
+  	width: 50px;
+  	height: 50px;
+  }
+
+  #clouds {
+  	background-size: 100%;
+  }
+
+}
