@@ -92,6 +92,28 @@ img.logo {
 	margin-top: 50px;
 }
 
+#header {
+	text-align: center;
+}
+
+.center-align {
+	margin: 0 auto;
+}
+
+#signs {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#signs input[type=radio] {
+	margin-right: 10px;
+}
+
+#text {
+	margin-top: 15px;
+	font-family: 'Cutive Mono', monospace;
+}
+
 #navbar {
 	position: fixed;
 	top: 0;
@@ -422,91 +444,9 @@ footer {
 }
 
 @media (max-width: 760px) {
-
-	h2 {
-		font-size: 24px;
+	img.logo {
+		width: 80%;
+		margin-top: 50px;
 	}
-
-	p {
-		font-size: 16px;
-	}
-
-	#navbar {
-		min-height: 60px;
-		height: auto;
-		padding-top: 0;
-	}
-
-	.name {
-		margin-top: 20px;
-	}
-
-	#nav-button {
-		margin-top: 15px;
-	}
-
-  #main {
-  	background-size: 50%;
-  }
-
-  #initials {
-  	width: 70px;
-  	height: 70px;
-  	font-size: 42px;
-  	padding-top: 10px;
-  }
-
-  #tag-top {
-  	font-size: 16px;
-  }
-
-  #tag-bottom {
-  	font-size: 28px;
-  }
-
-  #projects-wrapper {
-  	padding: 40px 10px 0 10px;
-  }
-
-  .project {
-  	width: 200px;
-  	height: 125px;
-  	padding-top: 20px;
-  }
-
-  #project-description .buttons, .caps {
-  	float: none;
-  	text-align: center;
-  	margin-bottom: 15px;
-  }
-
-  #about {
-  	padding: 20px 0;
-  }
-
-  .skills-section {
-  	width: 100%;
-  }
-
-  #social-wrapper {
-  	width: 60%;
-  	margin: 0 auto;
-  	padding-top: 10px;
-  }
-
-  #contact {
-  	padding-top: 15px;
-  	background-size: 65%;
-  }
-
-  .contact {
-  	margin: 5px;
-  	width: 50px;
-  	height: 50px;
-  }
-
-  #clouds {
-  	background-size: 100%;
-  }
 
 }
