@@ -8,10 +8,14 @@ LPA.getHoroscope = function(){
   var phraseA, blankA, phraseB, blankB, phraseC, blankC;
 
   phraseA = [
-    "You may find it's finally time to engage your loved ones in difficult conversations about the ... ",
-    "The emotional weight you've been carrying may feel like ... ",
-    "After deeper reflection, you may be ready to change direction and leave behind the ... ",
-    "Remember to stay strong as you may be feeling the cumulative toll of ... "
+    "You may find it's finally time to engage your loved ones in difficult conversations about the ...",
+    "The emotional weight you've been carrying may feel like ...",
+    "After deeper reflection, you may be ready to change direction and leave behind the ...",
+    "Remember to stay strong as you may be feeling the cumulative toll of ...",
+    "The challenges of ... may tip your center of balance today but keep in mind that it's only temporary",
+    "Today is a day to be grateful for the small things, like ...",
+    "Rats are in retograde today so don't take anything for granted.",
+    "What a glorious moment to make more room in your life for ..."
   ];
 
   blankA = [
@@ -25,16 +29,18 @@ LPA.getHoroscope = function(){
     "urban vermin",
     "warm cat food",
     "almond milk in your fridge",
-    "salmon colored flowers"
+    "salmon colored flowers",
+    "old stretched out underwear",
   ];
 
   phraseB = [
     "To maintain your inner calm, you'll find solace in ...",
     "... will be your north star through what may feel like a tumultuous moment",
-    "Don't forget the peace you've found in ... ",
+    "Don't forget the peace you've found in ...",
     "At times when you find yourself overwhelmed or stressed, remember the importance of ...",
     "With some introspection, you'll come to terms with how you've shaped your life around ...",
-    "Take a moment today to meditate on ..."
+    "Take a moment today to meditate on ...",
+    "Need a pick-me up? Seek out an old friends like ..."
   ];
 
   blankB = [
@@ -52,7 +58,8 @@ LPA.getHoroscope = function(){
     "fish wrappers",
     "tiger track pants",
     "tiny disco balls",
-    "oreos from the Dollar General"
+    "oreos from the Dollar General",
+    "your favorite residents of 36 Oak"
   ];
 
   phraseC = [
@@ -65,14 +72,15 @@ LPA.getHoroscope = function(){
     "unicorns on roller skates",
     "rats after backyard chocolate",
     "flies on wet fish wrappers",
-    "tiny plastic hands in a garden bed"
+    "tiny plastic hands in a garden bed",
+
   ];
 
   var set = [
     "Nevertheless, don't allow yourself to stray from the path you know your heart should follow. ",
     "But take a deep breath and reassess your foundation. ", 
     "So let your creative mind emerge today and offer a reset. ", 
-    "However, allow yourself a nap if your body is asking for it. ", 
+    "However, allow yourself to pause and rest if your body is asking for it. ", 
     "But it's not easy being a magical unicorn so try not to hold yourself to such exacting standards today. "
 
   ];
