@@ -15,7 +15,8 @@ LPA.getHoroscope = function(){
     "The challenges of ... may tip your center of balance today but keep in mind that it's only temporary",
     "Today is a day to be grateful for the small things, like ...",
     "Rats are in retograde today so don't take anything for granted.",
-    "What a glorious moment to make more room in your life for ..."
+    "What a glorious moment to make more room in your life for ...",
+    "You've been waiting for the right moment to come to grips with your love of ... - that moment has arrived."
   ];
 
   blankA = [
@@ -40,7 +41,7 @@ LPA.getHoroscope = function(){
     "At times when you find yourself overwhelmed or stressed, remember the importance of ...",
     "With some introspection, you'll come to terms with how you've shaped your life around ...",
     "Take a moment today to meditate on ...",
-    "Need a pick-me up? Seek out an old friends like ..."
+    "Need a pick-me up? Seek out old friends like ..."
   ];
 
   blankB = [
@@ -59,7 +60,8 @@ LPA.getHoroscope = function(){
     "tiger track pants",
     "tiny disco balls",
     "oreos from the Dollar General",
-    "your favorite residents of 36 Oak"
+    "your favorite residents of 36 Oak",
+    "adult diapers"
   ];
 
   phraseC = [
@@ -98,7 +100,7 @@ LPA.getHoroscope = function(){
 
   var choose = [sentenceB, sentenceC];
 
-  var horoscope = LPA.capitalize(sentenceA) + ". " + LPA.capitalize(_.sample(set)) + _.sample(choose) + "." 
+  var horoscope = LPA.capitalize(sentenceA) + ". " + LPA.capitalize(_.sample(set)) + LPA.capitalize(_.sample(choose)) + "." 
   $("#text").text(horoscope);
 
 };

@@ -88,7 +88,7 @@ ul {
 /**************Nav Bar***************/
 
 img.logo {
-	width: 80%;
+	width: 40%;
 	margin-top: 50px;
 }
 
@@ -110,7 +110,7 @@ img.logo {
 }
 
 #text {
-	margin-top: 15px;
+	margin: 15px 0 50px 0;
 	font-family: 'Cutive Mono', monospace;
 }
 
