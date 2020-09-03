@@ -30,7 +30,7 @@ LPA.getHoroscope = function(){
     "urban vermin",
     "warm cat food",
     "almond milk in your fridge",
-    "salmon colored flowers",
+    "golden balloons",
     "old stretched out underwear",
   ];
 
