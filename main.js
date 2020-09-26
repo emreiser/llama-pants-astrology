@@ -48,7 +48,7 @@ LPA.getHoroscope = function(){
     "Don't forget the peace you've found in ...",
     "At times when you find yourself overwhelmed or stressed, remember the importance of ...",
     "With some introspection, you'll come to terms with the role ... has played in your life",
-    "Take a moment today to meditate on ...",
+    "Take a moment to meditate on ...",
     "Need a pick-me up? Seek out old friends like ...",
     "If you feel like you're on an emotional rollercoaster recently, it might be ... you're needing"
   ];
@@ -73,7 +73,8 @@ LPA.getHoroscope = function(){
     "adult diapers",
     "pumpkin spice lattes",
     "the pony in your basement",
-    "the tiger boobs"
+    "the tiger boobs",
+    "dog cat"
   ];
 
   phraseC = [
@@ -95,13 +96,15 @@ LPA.getHoroscope = function(){
   var set = [
     "Nevertheless, don't allow yourself to stray from the path you know your heart should follow. ",
     "But take a deep breath and reassess your foundation. ", 
-    "So let your creative mind emerge today and offer a reset. ", 
+    "So let your creative mind emerge and offer a reset. ", 
     "However, allow yourself to pause and rest if your body is asking for it. ", 
-    "But it's not easy being a magical unicorn so try not to hold yourself to such exacting standards today. ",
+    "But it's not easy being a magical unicorn so try not to hold yourself to such exacting standards. ",
     "But don't second guess your magnificence. ",
-    "Take a moment to feel the sun within you shining if you can't find it outside. ",
+    "Take some time to feel the sun within you shining if you can't find it outside. ",
     "So allow some time commune with your inner goddess. ",
-    "So inhale and appreciate the power of your own body odor. "
+    "So inhale and appreciate the power of your own body odor. ",
+    "But know that those in your company are seeing the beauty you may not be allowing yourself to sit in. ",
+    "It's not easy being the best, so be forgiving if you feel that you're struggling. "
 
   ];
 
