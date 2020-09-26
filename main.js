@@ -17,7 +17,7 @@ LPA.getHoroscope = function(){
     "Rats are in retograde today so don't take anything for granted, especially ...",
     "What a glorious moment to make more room in your life for ...",
     "You've been waiting for the right moment to come to grips with your love of ... - that moment has arrived",
-    "If you have a bit of an extra pep in your step today, it's likely the ...",
+    "If you have a bit of an extra pep in your step today, it's likely ...",
     "The stars are aligned today to open up to friends and family about ...",
 
   ];
@@ -25,7 +25,7 @@ LPA.getHoroscope = function(){
   blankA = [
     "COVID toe",
     "camel toe",
-    "transfer shed",
+    "transfer shed meals",
     "sun-warmed meat",
     "wet fish wrappers",
     "heavy cream in your coffee",
