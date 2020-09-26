@@ -14,9 +14,10 @@ LPA.getHoroscope = function(){
     "Remember to stay strong as you may be feeling the cumulative toll of ...",
     "The challenges of ... may tip your center of balance today but keep in mind that it's only temporary",
     "Today is a day to be grateful for the small things, like ...",
-    "Rats are in retograde today so don't take anything for granted.",
+    "Rats are in retograde today so don't take anything for granted, especially ...",
     "What a glorious moment to make more room in your life for ...",
-    "You've been waiting for the right moment to come to grips with your love of ... - that moment has arrived."
+    "You've been waiting for the right moment to come to grips with your love of ... - that moment has arrived.",
+    "If you have a bit of an extra pep in your step today, it's likely the ...",
   ];
 
   blankA = [
@@ -30,8 +31,12 @@ LPA.getHoroscope = function(){
     "urban vermin",
     "warm cat food",
     "almond milk in your fridge",
-    "golden balloons",
+    "glowing balloons",
     "old stretched out underwear",
+    "youthful slobber on your neck",
+    "special needs helmet",
+    "Target selfies",
+    "cooch beads"
   ];
 
   phraseB = [
@@ -39,9 +44,10 @@ LPA.getHoroscope = function(){
     "... will be your north star through what may feel like a tumultuous moment",
     "Don't forget the peace you've found in ...",
     "At times when you find yourself overwhelmed or stressed, remember the importance of ...",
-    "With some introspection, you'll come to terms with how you've shaped your life around ...",
+    "With some introspection, you'll come to terms with the role ... has played in your life",
     "Take a moment today to meditate on ...",
-    "Need a pick-me up? Seek out old friends like ..."
+    "Need a pick-me up? Seek out old friends like ...",
+    "If you feel like you're on an emotional rollercoaster recently, it might be ... you're needing"
   ];
 
   blankB = [
@@ -61,13 +67,17 @@ LPA.getHoroscope = function(){
     "tiny disco balls",
     "oreos from the Dollar General",
     "your favorite residents of 36 Oak",
-    "adult diapers"
+    "adult diapers",
+    "pumpkin spice lattes",
+    "the pony in your basement",
+    "the tiger boobs"
   ];
 
   phraseC = [
     "As you find your center, you'll find that loved ones may flock to you like ...",
     "... may have you rethinking some of your recent life decisions",
-    "Despite all that is on your plate, rest assured that you will find good company in ..."
+    "Despite all that is on your plate, rest assured that you will find good company in ...",
+    "If you feel as though something is missing, ... may be exactly what you need"
   ];
 
   blankC = [
@@ -75,6 +85,7 @@ LPA.getHoroscope = function(){
     "rats after backyard chocolate",
     "flies on wet fish wrappers",
     "tiny plastic hands in a garden bed",
+    "Arnold Palmer"
 
   ];
 
@@ -83,7 +94,11 @@ LPA.getHoroscope = function(){
     "But take a deep breath and reassess your foundation. ", 
     "So let your creative mind emerge today and offer a reset. ", 
     "However, allow yourself to pause and rest if your body is asking for it. ", 
-    "But it's not easy being a magical unicorn so try not to hold yourself to such exacting standards today. "
+    "But it's not easy being a magical unicorn so try not to hold yourself to such exacting standards today. ",
+    "But don't second guess your magnificence. ",
+    "Take a moment to feel the sun within you shining if you can't find it outside. ",
+    "So allow some time commune with your inner goddess. ",
+    "So inhale and appreciate the power of your own body odor. "
 
   ];
 

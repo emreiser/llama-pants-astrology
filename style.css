@@ -446,6 +446,11 @@ footer {
 @media (max-width: 760px) {
 	img.logo {
 		width: 80%;
+		height: auto;
 		margin-top: 50px;
+	}
+
+	#main {
+		height: auto;
 	}
 }
